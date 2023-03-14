@@ -1,0 +1,31 @@
+{
+    "name": "poorbash/zchatbot",
+    "description": "Simple Telegram chat bot",
+    "type": "project",
+    "keywords": [
+        "bot",
+        "telegram",
+        "nutgram",
+        "chatbot"
+    ],
+    "license": "AGPL-3.0-only",
+    "require": {
+        "nutgram/nutgram": "3.15.2",
+        "illuminate/database": "^10.2",
+        "hekmatinasser/verta": "^8.3",
+        "symfony/cache": "^6.2"
+    },
+    "authors": [
+        {
+            "name": "Pooria Bashiri",
+            "email": "po.pooria@gmail.com",
+            "homepage": "https://github.com/poorbash",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "poorbash\\ZChatBot\\App\\": "app/"
+        }
+    }
+}
